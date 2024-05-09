@@ -226,7 +226,7 @@ eg. If AddQueue() fails to create a Presentable Graphics queue, you may have to 
             }
 
             //--Keyboard event handler--
-            void OnKeyEvent(eAction action, uint8_t keycode){
+            void OnKeyEvent(eAction action, eKeycode keycode){
                 printf("Key: %s keycode:%d\n", type[action], keycode);
             }
 
